@@ -5,8 +5,8 @@ Programación Web – Unidad 4
 
 ## Integrantes
 - Jorge Enrique Gutiérrez Avendaño
-- [Nombre del integrante 2]
-- [Nombre del integrante 3]
+- Andrea Guadalupe Armengol Aguilar
+- Carlos Eduardo Gonzales pérez
 
 ## Descripción del proyecto
 Aplicación web **Agenda de Contactos** desarrollada con PHP y MySQL bajo arquitectura modular. Permite gestionar contactos personales o profesionales con fotografía, búsqueda en tiempo real por parámetros GET, validación en cliente y servidor, protección contra XSS e inyección SQL, y confirmación segura de eliminación mediante POST con token CSRF.
