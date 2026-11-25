@@ -1,0 +1,11 @@
+# Archivos temporales del sistema y editores
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.vscode/
+.idea/
+
+# Fotos subidas en archivos/ excepto .gitkeep
+archivos/*
+!archivos/.gitkeep

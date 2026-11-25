@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS contactos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    apellido VARCHAR(100) NOT NULL,
+    telefono VARCHAR(30) NOT NULL,
+    foto VARCHAR(255) NOT NULL,
+    email VARCHAR(150) NULL,
+    direccion VARCHAR(255) NULL,
+    notas TEXT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
